@@ -1,9 +1,9 @@
 # Favorite Places App
 
-A new Flutter project using devide features
+A new Flutter project using native devide features
 
 
-| ![Imagem 1]() | ![Imagem 2]() |
+| ![Imagem 1](img1.png) | ![Imagem 2](img2.png) |
 |---|---|
 
 ## Resources
