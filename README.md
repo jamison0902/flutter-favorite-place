@@ -15,7 +15,6 @@ A Flutter application that allows users to save their favorite places using nati
 - **View details**: Check a list of saved places with detailed images and addresses.
 - **Explore on the map**: Click on the map to see the location displayed larger on Google Maps.
 
-All information is stored locally using SQLite.
 
 ## 🛠️ Features
 
@@ -53,7 +52,7 @@ All information is stored locally using SQLite.
    flutter pub get
 
 3. **Set up the Google Maps API Key**:
-    - Substitua sua chave no arquivo android/app/src/main/AndroidManifest.xml e, caso necessário, configure o arquivo do iOS.
+    - Replace your key in the android/app/src/main/AndroidManifest.xml file and configure the iOS file if necessary.
 
 4. **Run the project**:
     ```bash
