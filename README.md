@@ -1,60 +1,62 @@
 # Favorite Places
 
-Um aplicativo Flutter que permite aos usuários cadastrar seus lugares favoritos utilizando recursos nativos do dispositivo, como câmera e localização.
+A Flutter application that allows users to save their favorite places using native device features, such as camera and location.
 
----
+## 🖼️ Screenshots
 
-## 🖼️ Capturas de Tela
+| ![Image 1](img1.png) | ![Image 2](img2.png) | ![Image 3](img3.png) |
+|----------------------|----------------------|----------------------|
+| ![Image 4](img4.png) | ![Image 5](img5.png) | ![Image 6](img6.png) |
 
-| ![Imagem 1](img1.png) | ![Imagem 2](img2.png) | ![Imagem 3](img3.png) 
-|---|---|---|
-| ![Imagem 4](img4.png) | ![Imagem 5](img5.png) | ![Imagem 6](img6.png) 
+## 📋 Description
 
----
+**Favorite Places** is an app that enables users to:
+- **Save places**: Take a photo and register the location using the Google Maps API.
+- **View details**: Check a list of saved places with detailed images and addresses.
+- **Explore on the map**: Click on the map to see the location displayed larger on Google Maps.
 
-## 📋 Descrição
+All information is stored locally using SQLite.
 
-O **Favorite Places** é um aplicativo que permite:
-- **Cadastrar lugares**: Tire uma foto e registre a localização usando a API de mapas do Google Cloud.
-- **Visualizar informações**: Veja a lista de lugares cadastrados com imagens e endereços detalhados.
-- **Explorar no mapa**: Ao clicar no mapa, visualize a localização ampliada no Google Maps.
+## 🛠️ Features
 
-Todas as informações são armazenadas localmente utilizando SQLite.
+1. **Place registration**:
+   - Take a photo directly through the app.
+   - Capture the current location or select one on the map.
 
----
+2. **Places list**:
+   - Displays a list of saved places.
+   - Click on an item to view details, including the image, address, and map.
 
-## 🛠️ Funcionalidades
+3. **Map visualization**:
+   - Expand the location on Google Maps directly from the app.
 
-1. **Cadastro de lugares**:
-   - Tire uma foto diretamente pelo aplicativo.
-   - Capture a localização atual ou selecione no mapa.
+4. **Local storage**:
+   - All data is saved in a SQLite database for offline access.
 
-2. **Lista de lugares**:
-   - Exibe uma lista com os lugares cadastrados.
-   - Clique em um item para visualizar os detalhes, incluindo a imagem, endereço e mapa.
 
-3. **Visualização no mapa**:
-   - Amplie a localização no Google Maps diretamente do aplicativo.
+## 📱 Technologies Used
 
-4. **Armazenamento local**:
-   - Todos os dados são salvos em um banco de dados SQLite para acesso offline.
+- **Flutter**: Framework for cross-platform development.
+- **SQLite**: Local database for data storage.
+- **Google Maps API**: Integration for location capture and visualization.
+- **Path Provider**: To manage file paths on the device.
 
----
 
-## 📱 Tecnologias Utilizadas
+## 🚀 How to Run the Project
 
-- **[Flutter](https://flutter.dev/)**: Framework para desenvolvimento multiplataforma.
-- **SQLite**: Banco de dados local para armazenamento.
-- **Google Maps API**: Integração para captura e exibição de localizações.
-- **Path Provider**: Para gerenciar caminhos de arquivos no dispositivo.
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. **Clone o repositório**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/jamison0902/flutter-favorite-place.git
 
+2. **Install dependencies**:
+   ```bash
+   flutter pub get
+
+3. **Set up the Google Maps API Key**:
+    - Substitua sua chave no arquivo android/app/src/main/AndroidManifest.xml e, caso necessário, configure o arquivo do iOS.
+
+4. **Run the project**:
+    ```bash
+   flutter run
 
 
